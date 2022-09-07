@@ -1,0 +1,99 @@
+.navbar-brand{
+    font: 2em sans-serif;
+    color: black;
+    font-weight: 700;
+}
+.navbar-brand:hover{
+    color: aqua;
+}
+.nav-link{
+    margin: 10px 0px 10px 10px;
+    color: blueviolet;
+    text-transform: uppercase;
+}
+body{
+    /* background-image: url("images/Shiny\ Makeup.jpg"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.search{
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    outline: none;
+    margin-right: -35px;
+    border: 2px solid rgb(173, 59, 116);
+}
+.btn0{
+    height: 40px;
+    width: 70px;
+    outline: none;
+    border: none;
+    background: rgb(173, 59, 116);
+    color: white;
+    font-weight: 700px;
+    border-radius: 60px;
+}
+.main{
+    background: url(./images/Shiny\ Makeup.jpg );
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    /* background-position: 20% 5%; */
+}
+.main h1{
+    font-size: 3.5em;
+    font-weight: 700;
+    padding-top:150px ;
+    padding-right: 80px;
+}
+.main h3{
+    font-size: 1.7em;
+}
+.btn1{
+    height: 25px;
+    width: 35%;
+    border:none ;
+    outline: none;
+    background: rgb(173, 59, 116);
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+}
+h1{
+    font-weight: 700;
+    
+}
+.about{
+    background-size: cover;
+    height: 150vh;
+    width: 100%;
+    background-position: 20% 5%;
+}
+.news{
+    background-color: black;
+    color: white;
+}
+.btn2{
+    height: 26px;
+    width: 20%;
+    border:none ;
+    outline: none;
+    background-color:white;
+    margin-left: -30px;
+    color: black;
+    font-weight: 700;
+}
+.news input{
+    height: 28px;
+    width: 40%;
+    outline: none;
+    margin-top: 40px;
+    background-color: black;
+}
+.news::placeholder{
+    color: white;
+}
+.fab{
+    font-size: 2.5rem;
+}
