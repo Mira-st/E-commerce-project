@@ -1,10 +1,12 @@
-.navbar-brand{
+.navbar-brand:hover.navbar-brand{
     font: 2em sans-serif;
     color: black;
     font-weight: 700;
 }
-.navbar-brand:hover{
-    color: aqua;
+.navbar-brand:hover,
+.navbar-nav a:hover {
+    background-color: rgb(173, 59, 116);
+    color: white;
 }
 .nav-link{
     margin: 10px 0px 10px 10px;
@@ -97,3 +99,33 @@ h1{
 .fab{
     font-size: 2.5rem;
 }
+
+@keyframes zoom-in-zoom-out {
+    0% {
+    transform: scale(1);
+    }
+    50% {
+    transform: scale(1.5);
+    }
+    100% {
+    transform: scale(1);
+    }
+    }
+
+.image:hover{
+    border: 2px solid  rgb(173, 59, 116);
+    margin: 4px;
+    
+    animation: zoom-in-zoom-out 2s ease-in infinite;
+}
+
+.cart{
+    background-color: rgb(173, 59, 116);
+    transition: background-color 2s ease-out 100ms
+}
+
+.cart:hover{
+    color: #fff;
+    background-color: #4D006F;
+}
+
